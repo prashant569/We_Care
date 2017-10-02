@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hw.dispensary.Frag_Doc_Lgin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg7"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="view appointment"
+                android:id="@+id/dva"
+                android:layout_marginBottom="10sp"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/corners_doctor"
+                android:textSize="20sp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Patient's record"
+                android:id="@+id/dpr"
+                android:background="@drawable/corners_doctor"
+                android:layout_marginBottom="10sp"
+                android:textSize="20sp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Leave"
+                android:id="@+id/dlv"
+                android:textSize="20sp"
+                android:background="@drawable/corners_doctor"/>
+
+        </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

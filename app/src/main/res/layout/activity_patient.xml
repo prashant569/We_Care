@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="hw.dispensary.Patient">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="PATIENT"
+        android:textSize="40sp"
+        android:background="#f00"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:layout_marginBottom="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Edit Details"
+        android:background="@drawable/button_patient"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:id="@+id/btn_ed"
+        android:textSize="20sp"
+        />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Check Appointment"
+        android:background="@drawable/button_patient"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:id="@+id/btn_ca"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Book Appointment"
+        android:id="@+id/btn_ba"
+        android:background="@drawable/button_patient"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="General Tips"
+        android:background="@drawable/button_patient"
+        android:gravity="center"
+        android:id="@+id/btn_gt"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:textSize="20sp" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+
+        android:id="@+id/ll_pat"/>
+
+
+</LinearLayout>

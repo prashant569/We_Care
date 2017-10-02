@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:textSize="20sp"
+            android:text="* Be physically active for 30 minutes most days of the week. Break this up into three 10-minute sessions when pressed for time. Healthy movement may include walking, sports, dancing, yoga, running or other activities you enjoy."
+            android:textColor="#f0f"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:textSize="20sp"
+            android:text="* Eat a well-balanced, low-fat diet with lots of fruits, vegetables and whole grains. Choose a diet that's low in saturated fat and cholesterol, and moderate in sugar, salt and total fat."
+            android:textColor="#f0f"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:textSize="20sp"
+            android:text="* Avoid injury by wearing seatbelts and bike helmets, using smoke and carbon monoxide detectors in the home, and using street smarts when walking alone. If you own a gun, recognize the dangers of having a gun in your home. Use safety precautions at all times"
+            android:textColor="#f0f"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:textSize="20sp"
+            android:text="* Don't smoke, or quit if you do. Ask your health care provider for help. UCSF's Tobacco Education Center offers smoking cessation and relapse prevention classes as well as doctor consultations for smokers trying to quit."
+            android:textColor="#f0f"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:textSize="20sp"
+            android:text="* Drink in moderation if you drink alcohol. Never drink before or while driving, or when pregnant."
+            android:textColor="#f0f"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:textSize="20sp"
+            android:text="* Drink in moderation if you drink alcohol. Never drink before or while driving, or when pregnant."
+            android:textColor="#f0f"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:textSize="20sp"
+            android:text="* Brush your teeth after meals with a soft or medium bristled toothbrush. Also brush after drinking and before going to bed. Use dental floss daily."
+            android:textColor="#f0f"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:textSize="20sp"
+            android:text="* If you find your mind racing, or worrying about not being able to sleep during the middle of the night, get out of bed, and sit in a chair in the dark. Do your mind racing in the chair until you are sleepy, then return to bed. No TV or internet during these periods! That will just stimulate you more than desired."
+            android:textColor="#f0f"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:textSize="20sp"
+            android:text="* The effects of caffeine may last for several hours after ingestion. Caffeine can fragment sleep, and cause difficulty initiating sleep. If you drink caffeine, use it only before noon."
+            android:textColor="#f0f"/>
+    </LinearLayout>
+    </ScrollView>
+
